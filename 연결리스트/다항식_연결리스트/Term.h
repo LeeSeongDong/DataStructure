@@ -1,0 +1,12 @@
+#ifndef __TERM_H__
+#define __TERM_H__
+
+#include "Header.h"
+
+struct Term
+{
+	float coef;			//계수
+	int exp;			//지수
+};
+
+#endif
